@@ -1,196 +1,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
-.cogaan-logo {
-    height: 90px;
-    width: 90px;
+
+
+/* styles.css */
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.club-name {
-    font-size: 36px;
-    font-weight: 700;
-    font-family: "Roboto";
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
 }
 
-.banner-h1 {
-    font-size: 36px;
+/* Header and navigation styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
 }
 
-.banner-section {
-    height: 100vh;
-    width: 100%;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.cogaan-head {
-    color: red;
-    font-size: 30px;
-    font-weight: 600;
-    text-shadow: 2px 2px 4px #000000;
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
 }
 
-.banner-para {
-    font-size: 24px;
-    margin-top: 25px;
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
 }
 
-.banner-img {
-    width: 100%;
-    height: 300px;
+section {
+    margin-bottom: 2rem;
 }
 
-.banner-icon {
-    height: 50px;
-    width: 50px;
-    margin-top: 20px;
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
-.banner-icon-txt {
-    margin-top: 25px;
-    padding-left: 10px;
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
-.about-me-section {
-    background-color: #ffcc00;
+/* Domain container styles */
+.domain-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.about-head {
-    font-size: 34px;
-    font-weight: 700;
-    font-family: "Roboto";
+.domain {
+    flex-basis: 30%;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
-.about-para {
-    font-size: 13px;
-    font-weight: 400;
-    font-family: "Roboto";
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
 }
 
-.offer-head {
-    font-size: 26px;
-    font-weight: 500;
-    font-family: "Roboto";
+label {
+    margin-bottom: 0.5rem;
 }
 
-.offer-para {
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Roboto";
+input,
+textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
 }
 
-.offer-card {
-    width: 100%;
-    border-radius: 10px;
+button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
 
-.offer-img {
-    height: 40%;
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.card-head {
-    font-weight: 700;
-    font-size: 28px;
-    color: #183b56;
-    font-family: "Roboto";
-    padding-left: 10px;
-}
-
-.card-para {
-    font-weight: 500;
-    font-size: 16px;
-    color: #7b8794;
-    font-family: "Roboto";
-    padding-left: 10px;
-}
-
-.member-img {
-    width: 100%;
-    height: 100%;
-}
-
-.member-head {
-    font-size: 26px;
-    font-weight: 600;
-    font-family: "Roboto";
-}
-
-.join-button {
-    color: white;
-    background-image: linear-gradient(to right, #0000cc, #5900b3, #ff1a1a);
-    width: 130px;
-    height: 45px;
-    border-width: 0;
-    border-radius: 8px;
-    margin-right: 10px;
-    margin-bottom: 15px;
-}
-
-.say-head {
-    font-size: 26px;
-    font-weight: 600;
-    font-family: "Roboto";
-    color: #ffffff;
-}
-
-.say-section {
-    background-color: #1f2933;
-
-}
-
-.say-img {
-    height: 100px;
-    width: 100px;
-    border-radius: 100%;
-
-}
-
-.say-para-2 {
-    font-weight: 500;
-    font-size: 22px;
-    font-family: "Roboto";
-    color: black;
-}
-
-.footer-section {
-    background-color: #0d2436;
-
-}
-
-.website-footer-section {
-    background-color: #19232d;
-    height: 100vh;
-}
-
-.footer-logo {
-    height: 70px;
-    width: 80px;
-}
-
-.icon {
-    color: #959ead;
-    font-size: 30px;
-}
-
-.icon-container {
-    background-color: #202b36;
-    width: 70px;
-    height: 70px;
-    border-radius: 40px;
-    margin: 15px;
-    padding: 15px;
-    padding-top: 19px;
-
-}
-
-.footer-heads {
-    font-weight: 700;
-    color: #5a7184;
-    font-size: 24px;
-}
-
-.footer-para {
-    font-size: 20px;
-    font-weight: 400;
-    color: #959ead;
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
 }
